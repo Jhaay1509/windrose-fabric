@@ -80,16 +80,18 @@ The `notebooks/` directory currently contains:
 
 ## Development roadmap
 
-- [x] Raw API ingestion into OneLake.
-- [x] PySpark Silver transformations.
-- [x] Data quality validation.
-- [x] Delta Lake MERGE implementation.
-- [x] Upsert and duplicate-prevention testing.
-- [ ] Gold-layer modelling and aggregation.
-- [ ] Data pipeline orchestration.
-- [ ] Pipeline monitoring and error handling.
-- [ ] Analytical serving and reporting.
-- [ ] CI/CD and deployment exercises.
+## Development roadmap
+
+- [x] Raw API ingestion into OneLake
+- [x] PySpark Silver transformations
+- [x] Data quality validation
+- [x] Delta Lake MERGE implementation
+- [x] Gold-layer modelling and daily aggregation
+- [x] Gold Delta table creation and validation
+- [x] Parameterized Bronze and Silver notebooks
+- [ ] Automated pipeline execution and testing
+- [ ] Scheduling and monitoring
+- [ ] CI/CD and deployment exercises
 
 ## Project context
 
