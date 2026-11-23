@@ -1,0 +1,38 @@
+{
+    "name": "pl_windrose_weather_etl",
+    "objectId": "f07149d5-fba5-4e95-a6ae-eaac0beda8e2",
+    "properties": {
+        "activities": [
+            {
+                "name": "nb_windrose_orchestrator",
+                "type": "TridentNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "typeProperties": {
+                    "notebookId": "e91fbbc7-f035-4b38-b7fe-8bbd7e7408fa",
+                    "workspaceId": "d36c8373-90d7-4f67-b1b5-c0b54e52eb44",
+                    "parameters": {
+                        "run_date": {
+                            "value": "",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        ],
+        "parameters": {
+            "run_date": {
+                "type": "string",
+                "defaultValue": "2026-11-23"
+            }
+        },
+        "lastModifiedByObjectId": "b8d987d5-b33f-4b48-bcd9-c6d3e4757b51",
+        "lastPublishTime": "2026-11-23T06:48:15Z"
+    }
+}
